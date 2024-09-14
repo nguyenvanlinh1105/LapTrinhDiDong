@@ -1,0 +1,118 @@
+[
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-debug-31:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-main-33:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-debug-31:\\drawable_btn_bg.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-main-33:\\drawable\\btn_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-debug-31:\\drawable_facebook48.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-main-33:\\drawable\\facebook48.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-debug-31:\\drawable_person24.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-main-33:\\drawable\\person24.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-debug-31:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-main-33:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-debug-31:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-main-33:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-debug-31:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-main-33:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-debug-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-debug-31:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-main-33:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-debug-31:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-main-33:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-debug-31:\\drawable_mail24.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-main-33:\\drawable\\mail24.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-debug-31:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-main-33:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-debug-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-main-33:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-debug-31:\\drawable_confirmpass.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-main-33:\\drawable\\confirmpass.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-debug-31:\\drawable_pass.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-main-33:\\drawable\\pass.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-debug-31:\\drawable_chrome48.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-main-33:\\drawable\\chrome48.png"
+    },
+    {
+        "merged": "com.example.baitap3_constraint.app-debug-31:/layout_activity_login.xml.flat",
+        "source": "com.example.baitap3_constraint.app-main-33:/layout/activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-debug-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-debug-31:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-main-33:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-debug-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-debug-31:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-main-33:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-debug-31:\\drawable_input_bg_conner.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-main-33:\\drawable\\input_bg_conner.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-debug-31:\\drawable_background.jpg.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-main-33:\\drawable\\background.jpg"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-debug-31:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-main-33:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-debug-31:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-main-33:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-debug-31:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-main-33:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-debug-31:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-main-33:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-debug-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-debug-31:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.7\\com.example.baitap3_constraint.app-main-33:\\layout\\activity_register.xml"
+    }
+]

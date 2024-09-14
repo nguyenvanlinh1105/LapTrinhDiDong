@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="PrimaryDark">#03A9F4</color>
+    <color name="black">#FF000000</color>
+    <color name="red">#DA2C1F</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">baiTap3_Constraint</string>
+    <style name="Base.Theme.BaiTap3_Constraint" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.BaiTap3_Constraint" parent="Base.Theme.BaiTap3_Constraint"/>
+</resources>

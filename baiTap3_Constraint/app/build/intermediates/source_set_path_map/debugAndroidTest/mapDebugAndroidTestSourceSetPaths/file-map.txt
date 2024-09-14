@@ -1,0 +1,5 @@
+com.example.baitap3_constraint.test.app-core-1.6.1-0 C:\Users\HP\.gradle\caches\transforms-4\6c2c4a81c4f6de2c26cbd4e053c2f95a\transformed\core-1.6.1\res
+com.example.baitap3_constraint.test.app-androidTest-1 D:\ONE_DRIVE\OneDrive - University of Technology and Education\2024-2025 ki 5 124\124_LTDD\baiTap3_Constraint\app\build\generated\res\resValues\androidTest\debug
+com.example.baitap3_constraint.test.app-mergeDebugAndroidTestResources-2 D:\ONE_DRIVE\OneDrive - University of Technology and Education\2024-2025 ki 5 124\124_LTDD\baiTap3_Constraint\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.baitap3_constraint.test.app-mergeDebugAndroidTestResources-3 D:\ONE_DRIVE\OneDrive - University of Technology and Education\2024-2025 ki 5 124\124_LTDD\baiTap3_Constraint\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.baitap3_constraint.test.app-debugAndroidTest-4 D:\ONE_DRIVE\OneDrive - University of Technology and Education\2024-2025 ki 5 124\124_LTDD\baiTap3_Constraint\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
