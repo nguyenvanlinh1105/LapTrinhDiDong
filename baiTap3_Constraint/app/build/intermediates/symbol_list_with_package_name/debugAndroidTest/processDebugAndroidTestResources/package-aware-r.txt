@@ -1,3 +1,0 @@
-com.example.baitap3_constraint.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme
