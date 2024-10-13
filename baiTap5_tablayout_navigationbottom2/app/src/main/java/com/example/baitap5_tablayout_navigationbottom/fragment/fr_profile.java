@@ -1,21 +1,17 @@
 package com.example.baitap5_tablayout_navigationbottom.fragment;
 
 import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentStatePagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-
 import com.example.baitap5_tablayout_navigationbottom.R;
-import com.google.android.material.tabs.TabItem;
-import com.google.android.material.tabs.TabLayoutMediator;
+import com.example.baitap5_tablayout_navigationbottom.profile.ProfileviewPagerAdapter;
 import com.google.android.material.tabs.TabLayout;
-
-import profile.ProfileviewPagerAdapter;
 
 /**
  * A simple {@link Fragment} subclass.

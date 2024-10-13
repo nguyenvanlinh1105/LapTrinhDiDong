@@ -1,4 +1,4 @@
-package profile;
+package com.example.baitap5_tablayout_navigationbottom.profile;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

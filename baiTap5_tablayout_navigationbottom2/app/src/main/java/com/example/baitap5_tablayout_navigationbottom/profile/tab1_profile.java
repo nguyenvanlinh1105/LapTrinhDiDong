@@ -1,4 +1,4 @@
-package profile;
+package com.example.baitap5_tablayout_navigationbottom.profile;
 
 import android.os.Bundle;
 
