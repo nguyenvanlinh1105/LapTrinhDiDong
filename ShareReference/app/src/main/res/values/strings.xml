@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ShareReference</string>
+    <string-array name="list_name">
+        <item>xe1</item>
+        <item>xe2</item>
+        <item>xe3</item>
+        <item>xe4</item>
+        <item>xe5</item>
+        <item>xe6</item>
+        <item>xe7</item>
+        <item>xe8</item>
+        <item>xe9</item>
+        <item>xe10</item>
+        <item>xe11</item>
+        <item>xe12</item>
+
+
+    </string-array>
+</resources>
