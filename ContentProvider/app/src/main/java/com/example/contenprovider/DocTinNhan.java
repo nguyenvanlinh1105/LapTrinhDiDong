@@ -22,7 +22,6 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 
 public class DocTinNhan extends AppCompatActivity {
-
     private static final int REQUEST_SMS_ASK_PERMISSIONS=1002;
     ListView lvDanhSachTN;
     ImageView back ;
@@ -46,7 +45,6 @@ public class DocTinNhan extends AppCompatActivity {
         SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
         Uri uri = Uri.parse("content://sms/inbox");
         Cursor cursor= getContentResolver().query(uri, null, null, null, null);
-
         dsTinNhan.clear();
         while (cursor.moveToNext()){
             int indexPhoneNumber = cursor.getColumnIndex("address");
@@ -57,8 +55,6 @@ public class DocTinNhan extends AppCompatActivity {
             String body = cursor.getString(indexBody);
             dsTinNhan.add(new TinNhan(phoneNumber,sdf.format(Long.parseLong(Time)),body));
             adapterTinNhan.notifyDataSetChanged();
-
-
         }
     }
     private void addControll(){
@@ -79,5 +75,4 @@ public class DocTinNhan extends AppCompatActivity {
         );
         lvDanhSachTN.setAdapter(adapterTinNhan);
     }
-
 }

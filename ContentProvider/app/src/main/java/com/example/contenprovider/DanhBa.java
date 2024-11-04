@@ -28,22 +28,18 @@ public class DanhBa extends AppCompatActivity {
     ImageView back;
     ArrayList<Contact> dsDanhBa;
     ArrayAdapter<Contact> adapterDanhBa;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_danh_ba);
         addControls();
 
-        // Kiểm tra và yêu cầu quyền nếu chưa được cấp
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_CONTACTS) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.READ_CONTACTS}, REQUEST_CODE_ASK_PERMISSIONS);
         } else {
-            // Nếu quyền đã được cấp, gọi hàm showAllContactFromDevice
             showAllContactFromDevice();
         }
     }
-
     private void addControls() {
         back = findViewById(R.id.btnbackdanhba);
         back.setOnClickListener(new View.OnClickListener() {
@@ -53,7 +49,6 @@ public class DanhBa extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
         lvDanhBa = findViewById(R.id.lv_DanhBa);
         dsDanhBa = new ArrayList<>();
         adapterDanhBa = new ArrayAdapter<>(
@@ -62,31 +57,24 @@ public class DanhBa extends AppCompatActivity {
                 dsDanhBa
         );
         lvDanhBa.setAdapter(adapterDanhBa);
-
     }
-
     private void showAllContactFromDevice() {
         Uri uri = ContactsContract.CommonDataKinds.Phone.CONTENT_URI;
         Cursor cursor = getContentResolver().query(uri, null, null, null, null);
-
         dsDanhBa.clear();
         while (cursor != null && cursor.moveToNext()) {
             String tenCotName = ContactsContract.Contacts.DISPLAY_NAME;
             String tenCotPhone = ContactsContract.CommonDataKinds.Phone.NUMBER;
-
             int viTriCotName = cursor.getColumnIndex(tenCotName);
             int viTriCotPhone = cursor.getColumnIndex(tenCotPhone);
-
             String name = cursor.getString(viTriCotName);
             String phoneNumber = cursor.getString(viTriCotPhone);
 
             dsDanhBa.add(new Contact(name, phoneNumber));
         }
-
         if (cursor != null) {
             cursor.close();
         }
-
         adapterDanhBa.notifyDataSetChanged();
     }
 

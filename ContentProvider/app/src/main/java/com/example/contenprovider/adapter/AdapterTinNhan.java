@@ -33,7 +33,6 @@ public class AdapterTinNhan extends ArrayAdapter<TinNhan> {
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-        // Kiểm tra nếu convertView là null, nếu có thì inflate một view mới
         if (convertView == null) {
             LayoutInflater layoutInflater = this.context.getLayoutInflater();
             convertView = layoutInflater.inflate(R.layout.activity_item_tinnhan, parent, false);
