@@ -26,8 +26,6 @@ public class DocCallLog extends AppCompatActivity {
     ImageView btnbackCalllog;
     ArrayList<CallLog> dsCallLog;
     AdapterCallLog adapterCallLog;
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,10 +53,8 @@ public class DocCallLog extends AppCompatActivity {
         SimpleDateFormat sdf = new SimpleDateFormat("dd:MM:yyyy HH:mm:ss");
         Uri uri = Uri.parse("content://call_log/calls");
         Cursor cursor = getContentResolver().query(uri, null, null, null, null);
-
         if (cursor != null) {
             while (cursor.moveToNext()) {
-
                 int indexPhone = cursor.getColumnIndex("number");
                 String phoneNumber = cursor.getString(indexPhone);
                 int indexDate =cursor.getColumnIndex("date");
@@ -82,7 +78,6 @@ public class DocCallLog extends AppCompatActivity {
                     default:
                         callType = "Khác";
                 }
-
                 dsCallLog.add(new CallLog( phoneNumber, formattedTime, duration, callType));
             }
             cursor.close();

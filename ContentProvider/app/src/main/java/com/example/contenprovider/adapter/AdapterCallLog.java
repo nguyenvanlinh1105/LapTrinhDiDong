@@ -26,25 +26,19 @@ public class AdapterCallLog extends ArrayAdapter<CallLog> {
         this.context = Context;
         dsCallLog = objects;
     }
-
-
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-
         if(convertView ==null){
             LayoutInflater layoutInflater =  this.context.getLayoutInflater();
             convertView = layoutInflater.inflate(R.layout.activity_item_call_log,parent,false); // gán view
         }
-
         TextView txt_name = convertView.findViewById(R.id.text_type);
         TextView txt_num = convertView.findViewById(R.id.text_phone);
         TextView txt_date = convertView.findViewById(R.id.text_date);
         TextView txt_time = convertView.findViewById(R.id.txt_time);
 
-
         CallLog callLog = dsCallLog.get(position);
-
         txt_name.setText(callLog.getType());
         txt_num.setText(callLog.getNumber());
         txt_date.setText(callLog.getDate());
@@ -52,10 +46,6 @@ public class AdapterCallLog extends ArrayAdapter<CallLog> {
 
         Animation animation = AnimationUtils.loadAnimation(context,R.anim.facein);
         convertView.startAnimation(animation);
-
-
-
-
         return convertView;
     }
 }

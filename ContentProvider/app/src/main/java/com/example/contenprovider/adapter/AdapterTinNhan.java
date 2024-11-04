@@ -28,8 +28,6 @@ public class AdapterTinNhan extends ArrayAdapter<TinNhan> {
         this.context = context;
         dsTinNhan = objects;
     }
-
-
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
@@ -37,14 +35,10 @@ public class AdapterTinNhan extends ArrayAdapter<TinNhan> {
             LayoutInflater layoutInflater = this.context.getLayoutInflater();
             convertView = layoutInflater.inflate(R.layout.activity_item_tinnhan, parent, false);
         }
-
         // Tìm TextView và gán giá trị
         TextView textnum = convertView.findViewById(R.id.txt_phone);
         TextView texttime = convertView.findViewById(R.id.txt_time);
         TextView textBody = convertView.findViewById(R.id.txt_body);
-
-
-
         TinNhan tinNhan = dsTinNhan.get(position);
         textnum.setText(tinNhan.getNumber());
         texttime.setText(tinNhan.getTime());
@@ -53,6 +47,6 @@ public class AdapterTinNhan extends ArrayAdapter<TinNhan> {
         Animation animation = AnimationUtils.loadAnimation(context, R.anim.facein);
         convertView.startAnimation(animation);
 
-        return convertView; // Trả về convertView đã được cập nhật
+        return convertView;
     }
 }
